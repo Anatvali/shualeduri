@@ -1,6 +1,6 @@
 
 body {
-	max-width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
     padding: 
 }
@@ -12,6 +12,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 50px;
 }
 .logo {
 	font-family: "Inconsolata";
@@ -43,6 +44,7 @@ body {
 .first-art img {
 	padding-bottom: 100px;
 }
+
 .add-pad{
 	padding: 0px 80px;
 }
@@ -87,6 +89,7 @@ p-under-img {
 .box p {
 	margin-left: 15px;
 }
+
 /*footer*/
 
 .footer {
@@ -98,6 +101,7 @@ p-under-img {
 .footer-a {
 	padding-left: 20px;
 }
+
 .sign-up {
 	padding-top: 50px;
 }
@@ -175,3 +179,8 @@ input[type=text] {
 	width: 15px; 
 	height: 15px;
 }
+.footer-a-text {
+	color: #000000;
+	font-size: 14px;
+}
+
