@@ -1,18 +1,19 @@
 
-body {
-	max-width: 100%;
-    overflow-x: hidden;
-    padding: 
-}
+/*header*/
 .container {
 	padding: 70px 60px;
 }
-/*header*/
+
 .justify-content {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 50px 150px;
+}
+.large-padding {
+	padding: 80px 130px;
+}
+.header-padding {
+	padding: 60px;
 }
 .logo {
 	font-family: "Inconsolata";
@@ -36,10 +37,23 @@ body {
 	padding-left: 110px;
 	font-size: 14px;
 	font-family: "Playfair Display";
+	color: #626262;
+}
+body {
+	max-width: 100%;
+    overflow-x: hidden;
+    padding: 
 }
 
 /*section */
+.add-padd {
+	padding: 0 80px;
+}
 
+}
+section {
+	padding-bottom: 50px;
+}
 .first-art img {
 	padding-bottom: 100px;
 }
@@ -62,7 +76,7 @@ h3 {
 h4 {
 	font-family: "Ubuntu";
 	font-size: 14px;
-	padding-top: 75px;
+	padding-top: 30px;
 	color: #B4AD9E;
 }
 .img {
